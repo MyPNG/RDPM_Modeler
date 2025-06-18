@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 
 const express = require("express");
@@ -19,8 +20,6 @@ app.use("/api/roles", roleRoutes);
 app.use("/api/performances", performanceRoutes);
 app.use("/api/performanceProfiles", performanceProfileRoutes);
 app.use("/api/resourcePerformanceProfile", resPerformanceProfileRoutes);
-
-console.log("MONGO_URI is:", process.env.MONGO_URI); 
 
 mongoose
   .connect(process.env.MONGO_URI)
