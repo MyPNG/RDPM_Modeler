@@ -1,0 +1,4 @@
+{
+  "NODE_SERVER_PORT": 5001,
+  "PY_SERVER_PORT": 5002
+}
