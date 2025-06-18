@@ -16,9 +16,8 @@ npm install
 ```
 ### 2. Frontend
 
-#### a) Install dependencies
+#### a) Install dependencies (in folder test-project5.1)
 ```bash
-cd src/frontend
 npm install
 ```
 
