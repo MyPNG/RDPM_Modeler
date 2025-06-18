@@ -1,4 +1,4 @@
-# Resource-Driven Process Management Tool
+# Resource-Driven Process Management Modeler Tool
 
 ## Setup
 
