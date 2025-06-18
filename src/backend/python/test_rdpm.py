@@ -100,8 +100,8 @@ def get_cached_tasks():
 
 @route('/performanceData', method='GET')
 def get_performance_data():
-    # Liste aller .xes-Dateien in logs/
-    xes_paths = glob.glob("logs/*.xes")
+    # Liste aller .xes-Dateien in performanceData/
+    xes_paths = glob.glob("performanceData/*.xes")
 
     if xes_paths:
         # Mindestens eine .xes-Datei gefunden → alle .xes nacheinander parsen ---
@@ -126,7 +126,7 @@ def get_performance_data():
     else:
         # Keine .xes gefunden -> YAML
         dfs_yaml = []
-        for fn in glob.glob("logs/*.xes.yaml"):
+        for fn in glob.glob("performanceData/*.xes.yaml"):
             try:
                 df_tmp = Helper.yaml_log_to_df(fn)
                 dfs_yaml.append(df_tmp)

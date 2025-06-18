@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+    <extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+    <string key="origin" value="random-resources" />
+    <trace>
+        <string key="concept:name" value="case-101" />
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="approveOrder" />
+            <date key="timestamp" value="2025-06-02T08:00:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="max23" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="approveOrder" />
+            <date key="timestamp" value="2025-06-02T08:01:10+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="max23" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="checkStock" />
+            <date key="timestamp" value="2025-06-02T08:02:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="luna" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="checkStock" />
+            <date key="timestamp" value="2025-06-02T08:02:50+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="luna" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="packOrder" />
+            <date key="timestamp" value="2025-06-02T08:03:10+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="timX" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="packOrder" />
+            <date key="timestamp" value="2025-06-02T08:04:40+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="timX" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="shipOrder" />
+            <date key="timestamp" value="2025-06-02T08:05:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="sarah9" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="shipOrder" />
+            <date key="timestamp" value="2025-06-02T08:06:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="sarah9" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="closeCase" />
+            <date key="timestamp" value="2025-06-02T08:07:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="jonny_77" />
+        </event>
+        <event>
+            <string key="case_id" value="case-101" />
+            <string key="activity" value="closeCase" />
+            <date key="timestamp" value="2025-06-02T08:07:40+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="jonny_77" />
+        </event>
+    </trace>
+</log>

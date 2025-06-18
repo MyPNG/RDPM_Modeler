@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+    <extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+    <string key="origin" value="random-resources2" />
+    <trace>
+        <string key="concept:name" value="case-202" />
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="startProject" />
+            <date key="timestamp" value="2025-06-04T11:00:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="emiliaF" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="startProject" />
+            <date key="timestamp" value="2025-06-04T11:01:10+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="emiliaF" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="analyzeRequirements" />
+            <date key="timestamp" value="2025-06-04T11:02:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="zayn007" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="analyzeRequirements" />
+            <date key="timestamp" value="2025-06-04T11:04:00+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="zayn007" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="developFeature" />
+            <date key="timestamp" value="2025-06-04T11:04:20+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="leonieR" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="developFeature" />
+            <date key="timestamp" value="2025-06-04T11:06:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="leonieR" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="runTests" />
+            <date key="timestamp" value="2025-06-04T11:07:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="alexis2k" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="runTests" />
+            <date key="timestamp" value="2025-06-04T11:08:10+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="alexis2k" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="releaseProduct" />
+            <date key="timestamp" value="2025-06-04T11:09:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="chenY" />
+        </event>
+        <event>
+            <string key="case_id" value="case-202" />
+            <string key="activity" value="releaseProduct" />
+            <date key="timestamp" value="2025-06-04T11:09:50+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="chenY" />
+        </event>
+    </trace>
+</log>

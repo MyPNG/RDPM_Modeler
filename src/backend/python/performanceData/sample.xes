@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+    <extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+    <string key="origin" value="generated" />
+    <trace>
+        <string key="concept:name" value="case-001" />
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskA" />
+            <date key="timestamp" value="2025-06-01T09:00:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res1" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskA" />
+            <date key="timestamp" value="2025-06-01T09:01:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res1" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskB" />
+            <date key="timestamp" value="2025-06-01T09:02:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res2" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskB" />
+            <date key="timestamp" value="2025-06-01T09:04:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res2" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskC" />
+            <date key="timestamp" value="2025-06-01T09:05:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res3" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskC" />
+            <date key="timestamp" value="2025-06-01T09:07:00+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res3" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskD" />
+            <date key="timestamp" value="2025-06-01T09:07:30+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res4" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskD" />
+            <date key="timestamp" value="2025-06-01T09:08:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res4" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskE" />
+            <date key="timestamp" value="2025-06-01T09:09:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res5" />
+        </event>
+        <event>
+            <string key="case_id" value="case-001" />
+            <string key="activity" value="taskE" />
+            <date key="timestamp" value="2025-06-01T09:09:45+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res5" />
+        </event>
+    </trace>
+    <trace>
+        <string key="concept:name" value="case-002" />
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskF" />
+            <date key="timestamp" value="2025-06-01T10:00:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res2" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskF" />
+            <date key="timestamp" value="2025-06-01T10:02:00+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res2" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskG" />
+            <date key="timestamp" value="2025-06-01T10:03:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res4" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskG" />
+            <date key="timestamp" value="2025-06-01T10:05:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res4" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskH" />
+            <date key="timestamp" value="2025-06-01T10:06:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res3" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskH" />
+            <date key="timestamp" value="2025-06-01T10:08:00+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res3" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskI" />
+            <date key="timestamp" value="2025-06-01T10:09:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res1" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskI" />
+            <date key="timestamp" value="2025-06-01T10:10:30+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res1" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskJ" />
+            <date key="timestamp" value="2025-06-01T10:12:00+02:00" />
+            <string key="lifecycle" value="start" />
+            <string key="allocated_to" value="res5" />
+        </event>
+        <event>
+            <string key="case_id" value="case-002" />
+            <string key="activity" value="taskJ" />
+            <date key="timestamp" value="2025-06-01T10:14:00+02:00" />
+            <string key="lifecycle" value="complete" />
+            <string key="allocated_to" value="res5" />
+        </event>
+    </trace>
+</log>
