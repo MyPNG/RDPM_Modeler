@@ -781,8 +781,7 @@ const ReactBpmnModeler = ({
       });
       setTimeout(() => {
         modeling.setColor(newTask, {
-          stroke: "#f1948a",
-          fill: "#ffffff",
+          fill: "#f1948a",
         });
         modeling.updateProperties(newTask, { name: baseTask.businessObject.name});
 

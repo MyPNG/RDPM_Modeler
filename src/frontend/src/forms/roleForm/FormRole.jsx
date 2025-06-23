@@ -109,52 +109,54 @@ const FormRole = ({
       }}
     >
       <Box
-        sx={{
-          width: "100%",
-          height: "100%",
-          padding: 2,
-          overflowY: "auto",
-          position: "relative",
-        }}
+          sx={{
+            width: "100%",
+            height: "100%",
+            padding: 2,
+            overflowY: "auto",
+            position: "relative",
+          }}
       >
+        <h3>Create Role</h3>
+
         <Grid2 container spacing={2} direction="column">
           <TextField
-            sx={{ width: "96%" }}
-            label="Role"
-            variant="outlined"
-            value={formRole.role}
-            onChange={(e) =>
-              setFormRole((prev) => ({ ...prev, role: e.target.value }))
-            }
-            error={showErrors && !formRole.role}
-            helperText={showErrors && !formRole.role ? "Role is required" : ""}
+              sx={{width: "96%"}}
+              label="Role"
+              variant="outlined"
+              value={formRole.role}
+              onChange={(e) =>
+                  setFormRole((prev) => ({...prev, role: e.target.value}))
+              }
+              error={showErrors && !formRole.role}
+              helperText={showErrors && !formRole.role ? "Role is required" : ""}
           />
           <TextField
-            sx={{ width: "96%" }}
-            label="Children"
-            variant="outlined"
-            value={formRole.children}
-            onChange={(e) =>
-              setFormRole((prev) => ({ ...prev, children: e.target.value }))
-            }
+              sx={{width: "96%"}}
+              label="Children"
+              variant="outlined"
+              value={formRole.children}
+              onChange={(e) =>
+                  setFormRole((prev) => ({...prev, children: e.target.value}))
+              }
           />
           <TextField
-            sx={{ width: "96%" }}
-            label="Task(s)"
-            variant="outlined"
-            value={formRole.tasks}
-            onChange={(e) =>
-              setFormRole((prev) => ({ ...prev, tasks: e.target.value }))
-            }
+              sx={{width: "96%"}}
+              label="Task(s)"
+              variant="outlined"
+              value={formRole.tasks}
+              onChange={(e) =>
+                  setFormRole((prev) => ({...prev, tasks: e.target.value}))
+              }
           />
           <Grid2>
             <Button variant="contained" color="primary" type="submit">
               Submit
             </Button>
             <Button
-              variant="outlined"
-              sx={{ ml: 2, color: "#7c7c7c", borderColor: "#7c7c7c" }}
-              onClick={onDiscard}
+                variant="outlined"
+                sx={{ml: 2, color: "#7c7c7c", borderColor: "#7c7c7c"}}
+                onClick={onDiscard}
             >
               Discard Changes
             </Button>

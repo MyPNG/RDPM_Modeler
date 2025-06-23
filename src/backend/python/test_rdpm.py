@@ -75,18 +75,16 @@ def resources_api_connect():
     # Filter out the "getResources" task, collect other task labels
     task_names = [t["label"] for t in tasklabels if t["label"] != "getResources"]
 
-    # Build the URL for your Node.js API call
+    # Build the URL for Node.js API call
     tasks_param = ",".join(task_names)
     api_url = f"http://localhost:5001/api/resources/byTasks?tasks={tasks_param}"
 
-    # Make the GET request to your Node.js API
+    # Make the GET request to Node.js API
     api_resp = requests.get(api_url)
 
-    # Optional: check if the request was successful
     if api_resp.status_code != 200:
         raise HTTPError(api_resp.status_code, f"Error from resources API: {api_resp.text}")
 
-    # Return the raw XML response, set the content type accordingly
     response.content_type = "application/xml"
     print("Available resources: ", api_resp.text)
     return api_resp.text
